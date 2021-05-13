@@ -31,7 +31,7 @@ document.querySelectorAll(".card-link").forEach((item) => {
             let price = document.getElementsByClassName("card-body")[dataid].children[2].innerText
 
             var row = ` <tr>
-            <td><img src="pic1 5.png"></td>
+            <td><img src="./assets/images/pic1 5.png"></td>
             <td style="padding:0 0.2rem;">x1</td>
             <td colspan="3" class="productname">
                ${title}
